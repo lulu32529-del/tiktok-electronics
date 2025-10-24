@@ -1,0 +1,36 @@
+Шаг 1: Подключение дисплея
+Питание дисплея:
+
+VCC → 3.3V Wemos
+
+GND → GND Wemos
+
+SPI подключение:
+
+SCL → D5 (GPIO14) Wemos
+
+SDA → D7 (GPIO13) Wemos
+
+CS → D8 (GPIO15) Wemos
+
+Управление дисплеем:
+
+DC → D2 (GPIO4) Wemos
+
+RESET → D1 (GPIO5) Wemos
+
+BLK → D6 (GPIO12) Wemos
+
+Шаг 2: Подключение кнопки
+VCC кнопки → 3.3V Wemos
+
+GND кнопки → GND Wemos
+
+OUT кнопки → D0 (GPIO16) Wemos
+
+Шаг 3: Настройка ПО
+Установите библиотеку TFT_eSPI
+
+Настройте User_Setup.h как указано выше
+
+Загрузите код mellstroy_game.ino
